@@ -1,0 +1,66 @@
+client:
+  name: basic
+  file-system: device-agnostic
+tools: {}
+targets:
+  "JimnyDesktopPet-arm64-apple-macosx15.0-release.exe": ["<JimnyDesktopPet-arm64-apple-macosx15.0-release.exe>"]
+  "JimnyDesktopPet-arm64-apple-macosx15.0-release.module": ["<JimnyDesktopPet-arm64-apple-macosx15.0-release.module>"]
+  "PackageStructure": ["<PackageStructure>"]
+  "main": ["<JimnyDesktopPet-arm64-apple-macosx15.0-release.exe>","<JimnyDesktopPet-arm64-apple-macosx15.0-release.module>"]
+  "test": ["<JimnyDesktopPet-arm64-apple-macosx15.0-release.exe>","<JimnyDesktopPet-arm64-apple-macosx15.0-release.module>"]
+default: "main"
+nodes:
+  "/Users/prasanthnori/Downloads/JimnyDesktopPet/Sources/JimnyDesktopPet/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+commands:
+  "/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/release/JimnyDesktopPet.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/Users/prasanthnori/Downloads/JimnyDesktopPet/Sources/JimnyDesktopPet/AnimationView.swift","/Users/prasanthnori/Downloads/JimnyDesktopPet/Sources/JimnyDesktopPet/OverlayWindow.swift","/Users/prasanthnori/Downloads/JimnyDesktopPet/Sources/JimnyDesktopPet/PetSettings.swift","/Users/prasanthnori/Downloads/JimnyDesktopPet/Sources/JimnyDesktopPet/StatusBarController.swift","/Users/prasanthnori/Downloads/JimnyDesktopPet/Sources/JimnyDesktopPet/main.swift"]
+    outputs: ["/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/release/JimnyDesktopPet.build/sources"]
+    description: "Write auxiliary file /Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/release/JimnyDesktopPet.build/sources"
+
+  "/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/release/JimnyDesktopPet.product/Objects.LinkFileList":
+    tool: write-auxiliary-file
+    inputs: ["<link-file-list>","/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/release/JimnyDesktopPet.build/AnimationView.swift.o","/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/release/JimnyDesktopPet.build/OverlayWindow.swift.o","/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/release/JimnyDesktopPet.build/PetSettings.swift.o","/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/release/JimnyDesktopPet.build/StatusBarController.swift.o","/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/release/JimnyDesktopPet.build/main.swift.o"]
+    outputs: ["/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/release/JimnyDesktopPet.product/Objects.LinkFileList"]
+    description: "Write auxiliary file /Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/release/JimnyDesktopPet.product/Objects.LinkFileList"
+
+  "/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/release/swift-version--1AB21518FC5DEDBE.txt":
+    tool: write-auxiliary-file
+    inputs: ["<swift-get-version>","/Library/Developer/CommandLineTools/usr/bin/swiftc"]
+    outputs: ["/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/release/swift-version--1AB21518FC5DEDBE.txt"]
+    always-out-of-date: "true"
+    description: "Write auxiliary file /Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/release/swift-version--1AB21518FC5DEDBE.txt"
+
+  "<JimnyDesktopPet-arm64-apple-macosx15.0-release.exe>":
+    tool: phony
+    inputs: ["/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/release/JimnyDesktopPet"]
+    outputs: ["<JimnyDesktopPet-arm64-apple-macosx15.0-release.exe>"]
+
+  "<JimnyDesktopPet-arm64-apple-macosx15.0-release.module>":
+    tool: phony
+    inputs: ["/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/release/JimnyDesktopPet.build/AnimationView.swift.o","/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/release/JimnyDesktopPet.build/OverlayWindow.swift.o","/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/release/JimnyDesktopPet.build/PetSettings.swift.o","/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/release/JimnyDesktopPet.build/StatusBarController.swift.o","/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/release/JimnyDesktopPet.build/main.swift.o","/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/release/Modules/JimnyDesktopPet.swiftmodule"]
+    outputs: ["<JimnyDesktopPet-arm64-apple-macosx15.0-release.module>"]
+
+  "C.JimnyDesktopPet-arm64-apple-macosx15.0-release.exe":
+    tool: shell
+    inputs: ["/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/release/JimnyDesktopPet.build/AnimationView.swift.o","/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/release/JimnyDesktopPet.build/OverlayWindow.swift.o","/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/release/JimnyDesktopPet.build/PetSettings.swift.o","/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/release/JimnyDesktopPet.build/StatusBarController.swift.o","/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/release/JimnyDesktopPet.build/main.swift.o","/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/release/JimnyDesktopPet.product/Objects.LinkFileList"]
+    outputs: ["/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/release/JimnyDesktopPet"]
+    description: "Linking ./.build/arm64-apple-macosx/release/JimnyDesktopPet"
+    args: ["/Library/Developer/CommandLineTools/usr/bin/swiftc","-L","/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/release","-o","/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/release/JimnyDesktopPet","-module-name","JimnyDesktopPet","-Xlinker","-no_warn_duplicate_libraries","-emit-executable","-Xlinker","-dead_strip","-Xlinker","-alias","-Xlinker","_JimnyDesktopPet_main","-Xlinker","_main","-Xlinker","-rpath","-Xlinker","@loader_path","@/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/release/JimnyDesktopPet.product/Objects.LinkFileList","-target","arm64-apple-macosx13.0","-Xlinker","-sectcreate","-Xlinker","__TEXT","-Xlinker","__info_plist","-Xlinker","Info.plist","-F","/Library/Developer/CommandLineTools/Library/Developer/Frameworks","-sdk","/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk","-g","-Xlinker","-rpath","-Xlinker","/Library/Developer/CommandLineTools/Library/Developer/Frameworks"]
+
+  "C.JimnyDesktopPet-arm64-apple-macosx15.0-release.module":
+    tool: shell
+    inputs: ["/Users/prasanthnori/Downloads/JimnyDesktopPet/Sources/JimnyDesktopPet/AnimationView.swift","/Users/prasanthnori/Downloads/JimnyDesktopPet/Sources/JimnyDesktopPet/OverlayWindow.swift","/Users/prasanthnori/Downloads/JimnyDesktopPet/Sources/JimnyDesktopPet/PetSettings.swift","/Users/prasanthnori/Downloads/JimnyDesktopPet/Sources/JimnyDesktopPet/StatusBarController.swift","/Users/prasanthnori/Downloads/JimnyDesktopPet/Sources/JimnyDesktopPet/main.swift","/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/release/swift-version--1AB21518FC5DEDBE.txt","/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/release/JimnyDesktopPet.build/sources"]
+    outputs: ["/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/release/JimnyDesktopPet.build/AnimationView.swift.o","/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/release/JimnyDesktopPet.build/OverlayWindow.swift.o","/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/release/JimnyDesktopPet.build/PetSettings.swift.o","/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/release/JimnyDesktopPet.build/StatusBarController.swift.o","/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/release/JimnyDesktopPet.build/main.swift.o","/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/release/Modules/JimnyDesktopPet.swiftmodule"]
+    description: "Compiling Swift Module 'JimnyDesktopPet' (5 sources)"
+    args: ["/Library/Developer/CommandLineTools/usr/bin/swiftc","-module-name","JimnyDesktopPet","-emit-dependencies","-emit-module","-emit-module-path","/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/release/Modules/JimnyDesktopPet.swiftmodule","-output-file-map","/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/release/JimnyDesktopPet.build/output-file-map.json","-whole-module-optimization","-num-threads","11","-c","@/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/release/JimnyDesktopPet.build/sources","-I","/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/release/Modules","-target","arm64-apple-macosx13.0","-O","-j11","-DSWIFT_PACKAGE","-module-cache-path","/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/release/ModuleCache","-parseable-output","-Xfrontend","-entry-point-function-name","-Xfrontend","JimnyDesktopPet_main","-swift-version","5","-F","/Library/Developer/CommandLineTools/Library/Developer/Frameworks","-sdk","/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk","-g","-Xcc","-isysroot","-Xcc","/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk","-Xcc","-fPIC","-Xcc","-g","-package-name","jimnydesktoppet"]
+
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/Users/prasanthnori/Downloads/JimnyDesktopPet/Sources/JimnyDesktopPet/","/Users/prasanthnori/Downloads/JimnyDesktopPet/Package.swift","/Users/prasanthnori/Downloads/JimnyDesktopPet/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+

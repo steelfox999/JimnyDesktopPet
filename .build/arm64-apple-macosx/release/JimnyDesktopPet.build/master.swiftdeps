@@ -1,0 +1,10 @@
+version: "Apple Swift version 6.1.2 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)"
+options: "0bb15a418db689d3e48ee6f4342b82dc5303227eea1c8834e05426ea77abf8ef"
+build_start_time: [1772697093, 27471000]
+build_end_time: [1772697094, 281357000]
+inputs:
+  "/Users/prasanthnori/Downloads/JimnyDesktopPet/Sources/JimnyDesktopPet/AnimationView.swift": [1772696820, 66571991]
+  "/Users/prasanthnori/Downloads/JimnyDesktopPet/Sources/JimnyDesktopPet/OverlayWindow.swift": [1772697081, 994876360]
+  "/Users/prasanthnori/Downloads/JimnyDesktopPet/Sources/JimnyDesktopPet/PetSettings.swift": [1772693740, 895713944]
+  "/Users/prasanthnori/Downloads/JimnyDesktopPet/Sources/JimnyDesktopPet/StatusBarController.swift": [1772693810, 15166189]
+  "/Users/prasanthnori/Downloads/JimnyDesktopPet/Sources/JimnyDesktopPet/main.swift": [1772693815, 386957884]

@@ -1,0 +1,32 @@
+{
+  "": {
+    "dependencies": "/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/release/JimnyDesktopPet.build/JimnyDesktopPet.d",
+    "object": "/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/release/JimnyDesktopPet.build/JimnyDesktopPet.o",
+    "swift-dependencies": "/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/release/JimnyDesktopPet.build/master.swiftdeps"
+  },
+  "/Users/prasanthnori/Downloads/JimnyDesktopPet/Sources/JimnyDesktopPet/AnimationView.swift": {
+    "object": "/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/release/JimnyDesktopPet.build/AnimationView.swift.o",
+    "swiftmodule": "/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/release/JimnyDesktopPet.build/AnimationView~partial.swiftmodule",
+    "swift-dependencies": "/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/release/JimnyDesktopPet.build/AnimationView.swiftdeps"
+  },
+  "/Users/prasanthnori/Downloads/JimnyDesktopPet/Sources/JimnyDesktopPet/OverlayWindow.swift": {
+    "object": "/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/release/JimnyDesktopPet.build/OverlayWindow.swift.o",
+    "swiftmodule": "/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/release/JimnyDesktopPet.build/OverlayWindow~partial.swiftmodule",
+    "swift-dependencies": "/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/release/JimnyDesktopPet.build/OverlayWindow.swiftdeps"
+  },
+  "/Users/prasanthnori/Downloads/JimnyDesktopPet/Sources/JimnyDesktopPet/PetSettings.swift": {
+    "object": "/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/release/JimnyDesktopPet.build/PetSettings.swift.o",
+    "swiftmodule": "/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/release/JimnyDesktopPet.build/PetSettings~partial.swiftmodule",
+    "swift-dependencies": "/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/release/JimnyDesktopPet.build/PetSettings.swiftdeps"
+  },
+  "/Users/prasanthnori/Downloads/JimnyDesktopPet/Sources/JimnyDesktopPet/StatusBarController.swift": {
+    "object": "/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/release/JimnyDesktopPet.build/StatusBarController.swift.o",
+    "swiftmodule": "/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/release/JimnyDesktopPet.build/StatusBarController~partial.swiftmodule",
+    "swift-dependencies": "/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/release/JimnyDesktopPet.build/StatusBarController.swiftdeps"
+  },
+  "/Users/prasanthnori/Downloads/JimnyDesktopPet/Sources/JimnyDesktopPet/main.swift": {
+    "object": "/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/release/JimnyDesktopPet.build/main.swift.o",
+    "swiftmodule": "/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/release/JimnyDesktopPet.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/release/JimnyDesktopPet.build/main.swiftdeps"
+  }
+}

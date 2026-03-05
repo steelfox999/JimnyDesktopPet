@@ -1,0 +1,302 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.JimnyDesktopPet-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "fileList" : "/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/debug/JimnyDesktopPet.build/sources",
+      "importPath" : "/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/prasanthnori/Downloads/JimnyDesktopPet/Sources/JimnyDesktopPet/AnimationView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/prasanthnori/Downloads/JimnyDesktopPet/Sources/JimnyDesktopPet/OverlayWindow.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/prasanthnori/Downloads/JimnyDesktopPet/Sources/JimnyDesktopPet/PetSettings.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/prasanthnori/Downloads/JimnyDesktopPet/Sources/JimnyDesktopPet/StatusBarController.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/prasanthnori/Downloads/JimnyDesktopPet/Sources/JimnyDesktopPet/main.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/debug/JimnyDesktopPet.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "JimnyDesktopPet",
+      "moduleOutputPath" : "/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/debug/Modules/JimnyDesktopPet.swiftmodule",
+      "objects" : [
+        "/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/debug/JimnyDesktopPet.build/AnimationView.swift.o",
+        "/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/debug/JimnyDesktopPet.build/OverlayWindow.swift.o",
+        "/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/debug/JimnyDesktopPet.build/PetSettings.swift.o",
+        "/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/debug/JimnyDesktopPet.build/StatusBarController.swift.o",
+        "/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/debug/JimnyDesktopPet.build/main.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j11",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "JimnyDesktopPet_main",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-F",
+        "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+        "-sdk",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "jimnydesktoppet"
+      ],
+      "outputFileMapPath" : "/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/debug/JimnyDesktopPet.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/debug/JimnyDesktopPet.build/AnimationView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/debug/JimnyDesktopPet.build/OverlayWindow.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/debug/JimnyDesktopPet.build/PetSettings.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/debug/JimnyDesktopPet.build/StatusBarController.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/debug/JimnyDesktopPet.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/debug/Modules/JimnyDesktopPet.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/prasanthnori/Downloads/JimnyDesktopPet/Sources/JimnyDesktopPet/AnimationView.swift",
+        "/Users/prasanthnori/Downloads/JimnyDesktopPet/Sources/JimnyDesktopPet/OverlayWindow.swift",
+        "/Users/prasanthnori/Downloads/JimnyDesktopPet/Sources/JimnyDesktopPet/PetSettings.swift",
+        "/Users/prasanthnori/Downloads/JimnyDesktopPet/Sources/JimnyDesktopPet/StatusBarController.swift",
+        "/Users/prasanthnori/Downloads/JimnyDesktopPet/Sources/JimnyDesktopPet/main.swift"
+      ],
+      "tempsPath" : "/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/debug/JimnyDesktopPet.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "JimnyDesktopPet" : [
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "-module-name",
+      "JimnyDesktopPet",
+      "-package-name",
+      "jimnydesktoppet",
+      "-incremental",
+      "-c",
+      "/Users/prasanthnori/Downloads/JimnyDesktopPet/Sources/JimnyDesktopPet/AnimationView.swift",
+      "/Users/prasanthnori/Downloads/JimnyDesktopPet/Sources/JimnyDesktopPet/OverlayWindow.swift",
+      "/Users/prasanthnori/Downloads/JimnyDesktopPet/Sources/JimnyDesktopPet/PetSettings.swift",
+      "/Users/prasanthnori/Downloads/JimnyDesktopPet/Sources/JimnyDesktopPet/StatusBarController.swift",
+      "/Users/prasanthnori/Downloads/JimnyDesktopPet/Sources/JimnyDesktopPet/main.swift",
+      "-I",
+      "/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j11",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "JimnyDesktopPet_main",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-F",
+      "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+      "-sdk",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "jimnydesktoppet",
+      "-driver-use-frontend-path",
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "JimnyDesktopPet" : [
+
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "traitConfiguration" : {
+    "enableAllTraits" : false
+  },
+  "writeCommands" : {
+    "/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/debug/JimnyDesktopPet-entitlement.plist" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<entitlement-plist>"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<com.apple.security.get-task-allow>"
+        }
+      ],
+      "outputFilePath" : "/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/debug/JimnyDesktopPet-entitlement.plist"
+    },
+    "/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/debug/JimnyDesktopPet.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/prasanthnori/Downloads/JimnyDesktopPet/Sources/JimnyDesktopPet/AnimationView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/prasanthnori/Downloads/JimnyDesktopPet/Sources/JimnyDesktopPet/OverlayWindow.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/prasanthnori/Downloads/JimnyDesktopPet/Sources/JimnyDesktopPet/PetSettings.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/prasanthnori/Downloads/JimnyDesktopPet/Sources/JimnyDesktopPet/StatusBarController.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/prasanthnori/Downloads/JimnyDesktopPet/Sources/JimnyDesktopPet/main.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/debug/JimnyDesktopPet.build/sources"
+    },
+    "/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/debug/JimnyDesktopPet.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/debug/JimnyDesktopPet.build/AnimationView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/debug/JimnyDesktopPet.build/OverlayWindow.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/debug/JimnyDesktopPet.build/PetSettings.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/debug/JimnyDesktopPet.build/StatusBarController.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/debug/JimnyDesktopPet.build/main.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/debug/JimnyDesktopPet.product/Objects.LinkFileList"
+    },
+    "/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Library/Developer/CommandLineTools/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/prasanthnori/Downloads/JimnyDesktopPet/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"
+    }
+  }
+}
